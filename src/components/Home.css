@@ -1,0 +1,149 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  width: 100vw;
+}
+
+.content-container {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  max-width: 1280px;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 50%; 
+  background-color: transparent; /* Fully transparent background */
+  padding-top: 100px;
+  position: sticky !important;
+  justify-content: space-between;
+  flex-direction: column;
+  max-height: 75vh;
+  display: flex;
+  top: 0;
+}
+
+.menu h1, h2 {
+  color: #f6f6f6;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #999999;
+}
+
+
+.menu a:hover {
+  color: #f6f6f6;
+}
+
+.menu h1, h2 {
+  margin-top: 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 10px 0;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  align-items: center;
+  display: flex;
+}
+
+.summary-text {
+  max-width: 20rem;
+}
+
+/* Initial state for the line and text */
+.bullet-line {
+  width: 4rem; /* Initial width */
+  --tw-bg-opacity: 1;
+  background-color: #999999;
+  transition-property: width, background-color;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  height: 1px;
+  margin-right: 1rem;
+}
+
+.bullet-text {
+  --tw-text-opacity: 1;
+  letter-spacing: .1em;
+  font-weight: 700;
+  line-height: 1rem;
+  transition: color 0.15s cubic-bezier(.4,0,.2,1);
+  text-decoration: none; /* Remove underline */
+}
+
+/* Hover state for expanding line and changing color */
+ul li:hover .bullet-line {
+  width: 6rem; 
+  background-color: #f6f6f6 /* Hover color */
+}
+
+ul li:hover .bullet-text {
+  color: #f6f6f6/* Hover color */
+}
+
+/* Active state to persist changes */
+ul li.active .bullet-line {
+  width: 6rem; /* Expanded width for active item */
+  background-color: #f6f6f6 /* Active color */
+}
+
+ul li.active .bullet-text {
+  color: #f6f6f6 /* Active color */
+}
+
+.socials {
+  flex-direction: row;
+  display: flex;
+
+  gap: 1rem;
+
+}
+
+.social-icon {
+  width:30px;
+}
+
+.email-icon {
+  width:32px !important;
+}
+
+.mobile-icon {
+  width: 22px !important;
+  padding-top: 5px;
+}
+
+.content {
+  /* padding-top: 100px; */
+  width: 50%;
+  height: 100%;
+}
+
+.content section {
+  padding-top: 100px; 
+  padding-bottom: 100px; 
+}
+
+.content section h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,38 @@
+.projects-container {
+  background-color: transparent;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-card h3 {
+  color: #f6f6f6;
+  margin: 0;
+}
+
+.project-card p {
+  margin: 0;
+}
+
+.project-card {
+  text-decoration: none;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 250px;
+  color: #999999;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap:1rem;
+}
+
+.project-card .details {
+  width: 100%
+}
+
+.project-card:hover {
+  background: rgba(153, 153, 153, 0.3);
+}
