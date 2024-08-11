@@ -2,3 +2,7 @@
     background-color: transparent;
   }
   
+.green-bold {
+  color: #22c79b !important;
+  font-weight: bold !important;
+}

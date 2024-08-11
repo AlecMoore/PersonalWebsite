@@ -1,4 +1,4 @@
-/* Define the Dubai Light font */
+
 @font-face {
   font-family: 'Dubai Light';
   src: url('/public/Dubai-Light.ttf') format('ttf');
@@ -15,8 +15,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   overflow-y: auto;
-  background-color: #0d0d1c; /* Dark blue background color */
-  color: #999999;
+  background-color: #0d0d1c;
+  color: #c7c7c7;
   font-size: larger;
 }
 
