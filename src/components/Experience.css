@@ -1,43 +1,61 @@
 .experience-container {
-    background-color: transparent;
-  }
-  
-  .experience-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .experience-card h3 {
-    color: #f6f6f6;
-    margin: 0;
-  }
+  background-color: transparent;
+}
 
-  .experience-card p {
-    margin: 0;
-  }
-  
-  .experience-card {
-    text-decoration: none;
-    border-radius: 5px;
-    flex: 1;
-    min-width: 250px;
-    color: #999999;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    gap:1rem;
-  }
-  
-  .experience-card .dates {
-    width: 25%
-  }
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .experience-card .details {
-    width: 75%
-  }
+.experience-card h3 {
+  color: #f6f6f6;
+  margin: 0;
+}
 
-  .experience-card:hover {
-    background: rgba(153, 153, 153, 0.3);
-  }
-  
+.experience-card p {
+  margin: 0;
+}
+
+.experience-card {
+  text-decoration: none;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 250px;
+  color: #999999;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.experience-card .dates {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.experience-card .details {
+  width: 75%;
+}
+
+.experience-card:hover {
+  background: rgba(153, 153, 153, 0.3);
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.skill-box {
+  background-color: #d0f0c0; /* Light green color */
+  padding: 4px;
+  border-radius: 5px;
+  color: #333;
+  text-align: center;
+  display: inline-block;
+  width: 65%;
+}
