@@ -15,7 +15,6 @@ const ParticlesBackground = () => {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
   };
 
   const options = useMemo(
@@ -68,7 +67,7 @@ const ParticlesBackground = () => {
           density: {
             enable: true,
           },
-          value: 80,  // Reduces the number of particles
+          value: 60,  // Reduces the number of particles
         },
         opacity: {
           value: 0.5,

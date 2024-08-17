@@ -9,7 +9,7 @@ const Projects = () => {
       + 'by using CoinGecko\'s API to gather price data and calculate position values. If a position falls '
       + 'below its target allocation, the app executes trades using APIs from Binance, Bitfinex, and Gate.io.',
       link: 'https://github.com/AlecMoore/PortfolioBalancer',
-      language: 'c#',
+      language: 'C#',
     },
     {
       title: 'Investment Manager',
@@ -25,27 +25,27 @@ const Projects = () => {
       + 'based on strategies like moving averages, RSI, and the Fear and Greed index. The bots run continuously '
       + 'through Azure Function Apps.',
       link: 'https://github.com/AlecMoore/FtxApi',
-      language: 'c#',
+      language: 'C#',
     },
     {
       title: 'Management Accounts Helper',
       description: 'This web app streamlines management accounting by allowing accountants to input data directly '
       + 'on the platform, which then generates a formatted export.',
       link: 'https://github.com/AlecMoore/ManagementAccountsPortal-WIP-',
-      language: 'c# MVC',
+      language: 'C# MVC',
     },
     {
       title: 'Recipe Sharing Website',
       description: 'This collaborative project aims to create a recipe-sharing website, featuring a React frontend '
       + 'and a C# API.',
       link: 'https://github.com/AlecMoore/RecipeWebsite-WIP-',
-      language: 'React, c#',
+      language: 'React, C#',
     },
     {
       title: 'Isle of Man Business Directory',
       description: 'This website is intended to help connect businesses with customers on the Isle of Man.',
       link: 'https://github.com/AlecMoore/AllManx-WIP-',
-      language: 'c# MVC',
+      language: 'C# MVC',
     }
   ];
 

@@ -12,7 +12,7 @@ const Experience = () => {
       + 'loans and debit cards linked to user accounts using a banking partner.',
       link: 'https://www.coincorner.com/',
       dates: '2024 - Present',
-      skills: ['Azure', 'Cloudflare', 'Docker', 'Team Management', 'c#', 'SQL', 'css/html', 'javascript', 'Kotlin', 'Bitcoin', 'Lightning']
+      skills: ['Azure', 'Cloudflare', 'Docker', 'Team Management', 'C#', 'SQL', 'css/html', 'javascript', 'Kotlin', 'Bitcoin', 'Lightning']
     },
     {
       title: 'Software Developer - CoinCorner Ltd',
@@ -23,17 +23,17 @@ const Experience = () => {
       + 'lightning transactions, which is called Send Globally.',
       link: 'https://www.coincorner.com/',
       dates: '2022 - 2024',
-      skills: ['c#', 'SQL', 'css/html', 'javascript', 'Kotlin', 'Bitcoin', 'Lightning']
+      skills: ['C#', 'SQL', 'css/html', 'javascript', 'Kotlin', 'Bitcoin', 'Lightning']
     },
     {
       title: 'Graduate Software Developer - MBDA UK Ltd',
-      description: 'Developed a training tool in c++ that utilised Unity to model the hardware '
+      description: 'Developed a training tool in C++ that utilised Unity to model the hardware '
       + 'used on naval vessels for a missile system. Created a Java application to be used as a '
       + 'mission planning tool for missile firings, this required simiulating the missile flight'
       + ' for different scenarios including with variable environmental factors and physical objects',
       link: 'https://www.mbda-systems.com/',
       dates: '2021 - 2022',
-      skills: ['Java', 'c++', 'Unity', 'Git', 'SonarQube', 'Jenkins', 'OOP', 'Netbeans', 'Virtual Machines']
+      skills: ['Java', 'C++', 'Unity', 'Git', 'SonarQube', 'Jenkins', 'OOP', 'Netbeans', 'Virtual Machines']
     },
     {
       title: 'Graduate Systems Engineer - MBDA UK Ltd',

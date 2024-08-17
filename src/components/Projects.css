@@ -40,6 +40,7 @@
   align-items: flex-start; 
   padding-top: 6px;
   color: #22c79b;
+  font-size: large;
 }
 
 .projects-card .details {
