@@ -1,5 +1,3 @@
 # PersonalWebsite
-
-
-# TODO
-# Particles refresh at each section
+# alecmoore.co.uk
+# This website showcases some of my experiences and skills on my journey as a software developer.

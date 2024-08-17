@@ -1,8 +1,8 @@
 from PIL import Image, ImageDraw, ImageFont
 
 # Define colors
-background_color = "#0d0d1c"
-text_color = "#f6f6f6"
+background_color = "#020f24"
+text_color = "#22c79b"
 
 # Create an image with a specific background color
 size = (64, 64)  # Standard favicon size
@@ -13,7 +13,7 @@ draw = ImageDraw.Draw(image)
 
 # Load the "Dubai Light" font
 # Make sure the font file path is correct
-font_path = "D:/Projects/VS/my-portfolio/public/Dubai-Bold.ttf"  # Update this path if necessary
+font_path = "D:/Projects/VS/my-portfolio/public/Dubai-Light.ttf"  # Update this path if necessary
 font_size = 43  # Adjust font size for bigger text
 font = ImageFont.truetype(font_path, font_size)
 

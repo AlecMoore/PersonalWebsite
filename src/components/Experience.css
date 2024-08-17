@@ -38,6 +38,7 @@
   flex-direction: column;
   gap: 10px;
   align-items: flex-start; 
+  padding-top: 6px;
 }
 
 .experience-card .details {

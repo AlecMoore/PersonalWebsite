@@ -5,14 +5,22 @@ const Experience = () => {
   const experience = [
     {
       title: 'Senior Software Developer - CoinCorner Ltd',
-      description: 'A brief description of Project One.',
+      description: 'Responsible for managing and maintaining Azure App Services, ensuring that web '
+      + 'applications, APIs, and other services are deployed, monitored, and scaled effectively. '
+      + 'Additionally, managed task allocation for a team of 10 engineers to ensure deadlines were '
+      + 'met and code quality standards were followed. Created new products such as   Bitcoin backed '
+      + 'loans and debit cards linked to user accounts using a banking partner.',
       link: 'https://www.coincorner.com/',
       dates: '2024 - Present',
-      skills: ['Azure', 'Cloudflare', 'Docker', 'Management Experience', 'c#', 'SQL', 'css/html', 'javascript', 'Kotlin', 'Bitcoin', 'Lightning']
+      skills: ['Azure', 'Cloudflare', 'Docker', 'Team Management', 'c#', 'SQL', 'css/html', 'javascript', 'Kotlin', 'Bitcoin', 'Lightning']
     },
     {
       title: 'Software Developer - CoinCorner Ltd',
-      description: 'A brief description of Project Two.',
+      description: 'Contributed to maintaining the main website, internal admin site, back-end '
+      + 'infrastructure and android applications. Large projects included building a new KYC '
+      + 'process, restructuring transaction processing and integrating third-party payment APIs. '
+      + 'Implementing a new method for global remittance which uses third party partners and '
+      + 'lightning transactions, which is called Send Globally.',
       link: 'https://www.coincorner.com/',
       dates: '2022 - 2024',
       skills: ['c#', 'SQL', 'css/html', 'javascript', 'Kotlin', 'Bitcoin', 'Lightning']
