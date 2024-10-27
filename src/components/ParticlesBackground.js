@@ -21,7 +21,7 @@ const ParticlesBackground = () => {
     () => ({
       background: {
         color: {
-          value: "#020f24",
+          value: "#10233b",
         },
       },
       fpsLimit: 120,
@@ -48,7 +48,7 @@ const ParticlesBackground = () => {
       },
       particles: {
         color: {
-          value: "#22c79b",
+          value: "#23c8a1",
         },
         links: {
           enable: false,  // Disables the lines between particles
@@ -67,7 +67,7 @@ const ParticlesBackground = () => {
           density: {
             enable: true,
           },
-          value: 60,  // Reduces the number of particles
+          value: 10,  // Reduces the number of particles
         },
         opacity: {
           value: 0.5,

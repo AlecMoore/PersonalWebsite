@@ -1,8 +1,8 @@
 from PIL import Image, ImageDraw, ImageFont
 
 # Define colors
-background_color = "#020f24"
-text_color = "#22c79b"
+background_color = "#10233b"
+text_color = "#23c8a1"
 
 # Create an image with a specific background color
 size = (64, 64)  # Standard favicon size

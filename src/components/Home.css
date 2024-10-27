@@ -160,21 +160,21 @@
 /* Hover state for expanding line and changing color */
 ul li:hover .bullet-line {
   width: 6rem; 
-  background-color: #22c79b /* Hover color */
+  background-color: #23c8a1 
 }
 
 ul li:hover .bullet-text {
-  color: #22c79b/* Hover color */
+  color: #23c8a1
 }
 
 /* Active state to persist changes */
 ul li.active .bullet-line {
-  width: 6rem; /* Expanded width for active item */
-  background-color: #22c79b /* Active color */
+  width: 6rem;
+  background-color: #23c8a1 
 }
 
 ul li.active .bullet-text {
-  color: #22c79b /* Active color */
+  color: #23c8a1 
 }
 
 .socials {
