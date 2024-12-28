@@ -4,6 +4,14 @@ import './Projects.css';
 const Projects = () => {
   const projects = [
     {
+      title: 'Trading Bot Back Tester',
+      description: 'The idea behind this application is to create a scaleable sandbox for me to test trading '
+      + 'bot ideas. It has the ability to obtain historical klines from exchange APIs and store them in a database. '
+      + 'This data can then be used to back test the strategies.',
+      link: 'https://github.com/AlecMoore/BackTester',
+      language: 'C#',
+    },
+    {
       title: 'Crypto Portfolio Balancer',
       description: 'This console app monitors cryptocurrency investments and ensures portfolio allocations '
       + 'by using CoinGecko\'s API to gather price data and calculate position values. If a position falls '
